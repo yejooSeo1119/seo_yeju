@@ -1,0 +1,33 @@
+
+*{margin:0;
+  padding:0;}
+
+body{
+background : url(../images/bg.png) no-repeat center top;
+background-size: cover;
+}
+div p{
+  margin:100px auto;
+  display: block;
+  text-align: center;
+}
+div img{
+  margin:0 auto;
+  display: block;
+}
+.fixed{
+  position: fixed;
+  right:80px;
+  bottom:120px;
+}
+.fixed:hover{
+  opacity:0.8;
+}
+.fixed2{
+  position: fixed;
+  right:80px;
+  bottom:70px;
+}
+.fixed2:hover{
+  opacity:0.8;
+}
